@@ -5,6 +5,7 @@
   <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
 
 ## Description
+## Shift + ALT + F = Formatar o código
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 

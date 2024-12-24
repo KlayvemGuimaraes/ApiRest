@@ -6,17 +6,17 @@ GET http://localhost:3000/user/1
 // get por ID
 ###
 
-DELETE http://localhost:3000/user/2 // delete por ID
+DELETE http://localhost:3000/user/2 
 // delete por ID
 ###
 
-POST http://localhost:3000/user // post 
+POST http://localhost:3000/user 
 content-type: application/json
 
 {
-    "nome": "Pedro Pereira Gomes",
-    "email": "predropereira@gmail.com",
-    "senha": "9876"
+    "nome": "Renan Santos",
+    "email": "renansantos@gmail.com",
+    "senha": "94633"
 }
 // foi lá na minha Função, executou o POST, e retornou os mesmos atributos com o ID que foi calculado diretamente no Controller 
 ###
