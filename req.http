@@ -1,0 +1,32 @@
+GET http://localhost:3000/user 
+// get all
+###
+
+GET http://localhost:3000/user/1 
+// get por ID
+###
+
+DELETE http://localhost:3000/user/2 // delete por ID
+// delete por ID
+###
+
+POST http://localhost:3000/user // post 
+content-type: application/json
+
+{
+    "nome": "Pedro Pereira Gomes",
+    "email": "predropereira@gmail.com",
+    "senha": "9876"
+}
+// foi lá na minha Função, executou o POST, e retornou os mesmos atributos com o ID que foi calculado diretamente no Controller 
+###
+
+PATCH  http://localhost:3000/user/1
+content-type: application/json
+
+{
+    "nome": "Klayvem Guimarães Leal da Silva",
+    "email": "klayvemguik@gmail.com",
+    "senha": "9876"
+}
+// update por id
